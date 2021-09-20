@@ -1,0 +1,40 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.score-container {
+  position: absolute;
+  top: 2%;
+  right: 10%;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#game div {
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  height: 125px;
+  margin: 10px;
+  display: inline-block;
+  background: url("card-background.jpg");
+  background-size: cover;
+  transition: 0.5s;
+}
